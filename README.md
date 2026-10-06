@@ -1,3 +1,5 @@
+**Русский** · [English](README.en.md)
+
 # Wi-Fi Radio Ai-Sheff
 
 **English summary.** Wi-Fi Radio Ai-Sheff is an open-source, battery-powered push-to-talk walkie-talkie built on
@@ -9,7 +11,7 @@ Speech is 16 kHz IMA ADPCM; every packet is signed and the audio is AES-128-CTR 
 and the bridge forwards speech without decrypting it. Radios update their firmware over the air from the bridge,
 cancel acoustic howling between radios in the same room, and are configured from a phone through their own
 `RADIO-XXXX` access point. Two bridges can be linked so that each site keeps working on its own LAN.
-The documentation and code comments are in Russian. License: MIT.
+Full English documentation: [README.en.md](README.en.md). Code comments are in Russian. License: MIT.
 
 ---
 

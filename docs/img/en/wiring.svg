@@ -1,0 +1,205 @@
+<svg viewBox="0 0 1000 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wiring diagram of the radio: the modules connect to the pins of the ESP32-S3 board; power comes from the battery through the charger module and the power switch"><style>.board{fill:#2C4A3B}.mod{fill:#FAFBF8;stroke:#D4DAD2;stroke-width:1.2}.pin{fill:#16201A}.pinw{fill:#fff}.pin-offw{fill:#fff;opacity:.28}.t-b{font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#16201A}.t-m{font:12px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#5B675F}.t-bw{font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#fff}.t-mw{font:11.5px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#CFE0D6}.t-pin{font:600 11.5px ui-monospace,Menlo,Consolas,monospace;fill:#16201A}.t-pinw{font:600 11.5px ui-monospace,Menlo,Consolas,monospace;fill:#fff}.t-offw{font:500 11px ui-monospace,Menlo,Consolas,monospace;fill:#fff;opacity:.4}.t-tag{font:600 11px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#fff}.w{fill:none;stroke:#16201A;stroke-width:1.6}.p5{fill:none;stroke:#C63D24;stroke-width:2.6}.pg{fill:none;stroke:#3E4A43;stroke-width:2.6}.tag5{fill:#C63D24}.tag3{fill:#B86F00}.tagg{fill:#3E4A43}.tagn{fill:#5B675F}.tagb{fill:#FAFBF8;stroke:#3E4A43;stroke-width:1.6}.t-tagb{font:600 11px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#16201A}.arch-box{fill:#FAFBF8;stroke:#D4DAD2;stroke-width:1.3}.arch-hub{fill:#DDEFE4;stroke:#1C7C4E;stroke-width:1.6}.arch-alt{fill:#E4E9E2;stroke:#D4DAD2;stroke-width:1.3;stroke-dasharray:5 4}.a-line{fill:none;stroke:#16201A;stroke-width:1.6}.a-dash{fill:none;stroke:#5B675F;stroke-width:1.6;stroke-dasharray:6 5}.a-head{fill:#16201A}.a-headm{fill:#5B675F}.case{fill:#FAFBF8;stroke:#16201A;stroke-width:1.6}.boss{fill:none;stroke:#D4DAD2;stroke-width:1.4}.lens{fill:#F4F2EC;stroke:#D4DAD2;stroke-width:1.4}.ringled{fill:none;stroke:#23c26b;stroke-width:9;opacity:.55}.grille{fill:none;stroke:#5B675F;stroke-dasharray:2 3}.part{fill:#E4E9E2;stroke:#5B675F;stroke-width:1.2}.dash{fill:none;stroke-dasharray:5 4}.metal{fill:#b9bec2;stroke:#5B675F}.battery{fill:#3f7fd8;stroke:none}.clamp{fill:#F2EEE3;stroke:#16201A;stroke-width:1.2}.t-tag2{font:700 12px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#16201A}.shelf{fill:#E9E5DA;stroke:#16201A;stroke-width:1.2;opacity:.93}.screw{fill:#FAFBF8;stroke:#16201A;stroke-width:1.2}.screwx{stroke:#16201A;stroke-width:1.1;fill:none}.clip{fill:#16201A}.pins{fill:#E0B83C}.tie{fill:#FAFBF8;stroke:#16201A;stroke-width:1.2}.charger{fill:#1d3f6e}.amp{fill:#8a3fbf}.hatch{fill:url(#hatch);stroke:#fff;stroke-width:1}.hatchline{stroke:#fff;stroke-width:1.4}.pad{fill:none;stroke:#fff;stroke-dasharray:3 2}.lead{fill:none;stroke:#5B675F;stroke-width:1}</style><rect width="100%" height="100%" fill="#FAFBF8"/>
+<defs><marker id="dot" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="6" markerHeight="6"><circle cx="3" cy="3" r="2.4" class="pin"/></marker></defs>
+<rect x="420" y="74" width="160" height="436" rx="10" class="board"/>
+<text x="500" y="96" class="t-bw" text-anchor="middle">ESP32-S3 DevKitC-1</text>
+<text x="500" y="498" class="t-mw" text-anchor="middle">USB-C at the bottom</text>
+<circle cx="420" cy="118" r="3.6" class="pinw"/>
+<text x="430" y="122" class="t-pinw">3V3</text>
+<circle cx="420" cy="135" r="3.6" class="pinw"/>
+<text x="430" y="139" class="t-pinw">3V3</text>
+<circle cx="420" cy="152" r="3.6" class="pin-offw"/>
+<text x="430" y="156" class="t-offw">RST</text>
+<circle cx="420" cy="169" r="3.6" class="pinw"/>
+<text x="430" y="173" class="t-pinw">4</text>
+<circle cx="420" cy="186" r="3.6" class="pinw"/>
+<text x="430" y="190" class="t-pinw">5</text>
+<circle cx="420" cy="203" r="3.6" class="pinw"/>
+<text x="430" y="207" class="t-pinw">6</text>
+<circle cx="420" cy="220" r="3.6" class="pinw"/>
+<text x="430" y="224" class="t-pinw">7</text>
+<circle cx="420" cy="237" r="3.6" class="pinw"/>
+<text x="430" y="241" class="t-pinw">15</text>
+<circle cx="420" cy="254" r="3.6" class="pinw"/>
+<text x="430" y="258" class="t-pinw">16</text>
+<circle cx="420" cy="271" r="3.6" class="pinw"/>
+<text x="430" y="275" class="t-pinw">17</text>
+<circle cx="420" cy="288" r="3.6" class="pinw"/>
+<text x="430" y="292" class="t-pinw">18</text>
+<circle cx="420" cy="305" r="3.6" class="pinw"/>
+<text x="430" y="309" class="t-pinw">8</text>
+<circle cx="420" cy="322" r="3.6" class="pin-offw"/>
+<text x="430" y="326" class="t-offw">3</text>
+<circle cx="420" cy="339" r="3.6" class="pin-offw"/>
+<text x="430" y="343" class="t-offw">46</text>
+<circle cx="420" cy="356" r="3.6" class="pin-offw"/>
+<text x="430" y="360" class="t-offw">9</text>
+<circle cx="420" cy="373" r="3.6" class="pin-offw"/>
+<text x="430" y="377" class="t-offw">10</text>
+<circle cx="420" cy="390" r="3.6" class="pin-offw"/>
+<text x="430" y="394" class="t-offw">11</text>
+<circle cx="420" cy="407" r="3.6" class="pin-offw"/>
+<text x="430" y="411" class="t-offw">12</text>
+<circle cx="420" cy="424" r="3.6" class="pin-offw"/>
+<text x="430" y="428" class="t-offw">13</text>
+<circle cx="420" cy="441" r="3.6" class="pin-offw"/>
+<text x="430" y="445" class="t-offw">14</text>
+<circle cx="420" cy="458" r="3.6" class="pinw"/>
+<text x="430" y="462" class="t-pinw">5V*</text>
+<circle cx="420" cy="475" r="3.6" class="pinw"/>
+<text x="430" y="479" class="t-pinw">G</text>
+<circle cx="580" cy="118" r="3.6" class="pinw"/>
+<text x="570" y="122" class="t-pinw" text-anchor="end">G</text>
+<circle cx="580" cy="135" r="3.6" class="pin-offw"/>
+<text x="570" y="139" class="t-offw" text-anchor="end">TX</text>
+<circle cx="580" cy="152" r="3.6" class="pin-offw"/>
+<text x="570" y="156" class="t-offw" text-anchor="end">RX</text>
+<circle cx="580" cy="169" r="3.6" class="pinw"/>
+<text x="570" y="173" class="t-pinw" text-anchor="end">1</text>
+<circle cx="580" cy="186" r="3.6" class="pinw"/>
+<text x="570" y="190" class="t-pinw" text-anchor="end">2</text>
+<circle cx="580" cy="203" r="3.6" class="pinw"/>
+<text x="570" y="207" class="t-pinw" text-anchor="end">42</text>
+<circle cx="580" cy="220" r="3.6" class="pinw"/>
+<text x="570" y="224" class="t-pinw" text-anchor="end">41</text>
+<circle cx="580" cy="237" r="3.6" class="pin-offw"/>
+<text x="570" y="241" class="t-offw" text-anchor="end">40</text>
+<circle cx="580" cy="254" r="3.6" class="pin-offw"/>
+<text x="570" y="258" class="t-offw" text-anchor="end">39</text>
+<circle cx="580" cy="271" r="3.6" class="pin-offw"/>
+<text x="570" y="275" class="t-offw" text-anchor="end">38</text>
+<circle cx="580" cy="288" r="3.6" class="pin-offw"/>
+<text x="570" y="292" class="t-offw" text-anchor="end">37</text>
+<circle cx="580" cy="305" r="3.6" class="pin-offw"/>
+<text x="570" y="309" class="t-offw" text-anchor="end">36</text>
+<circle cx="580" cy="322" r="3.6" class="pin-offw"/>
+<text x="570" y="326" class="t-offw" text-anchor="end">35</text>
+<circle cx="580" cy="339" r="3.6" class="pin-offw"/>
+<text x="570" y="343" class="t-offw" text-anchor="end">0</text>
+<circle cx="580" cy="356" r="3.6" class="pin-offw"/>
+<text x="570" y="360" class="t-offw" text-anchor="end">45</text>
+<circle cx="580" cy="373" r="3.6" class="pin-offw"/>
+<text x="570" y="377" class="t-offw" text-anchor="end">48</text>
+<circle cx="580" cy="390" r="3.6" class="pin-offw"/>
+<text x="570" y="394" class="t-offw" text-anchor="end">47</text>
+<circle cx="580" cy="407" r="3.6" class="pin-offw"/>
+<text x="570" y="411" class="t-offw" text-anchor="end">21</text>
+<circle cx="580" cy="424" r="3.6" class="pin-offw"/>
+<text x="570" y="428" class="t-offw" text-anchor="end">20</text>
+<circle cx="580" cy="441" r="3.6" class="pin-offw"/>
+<text x="570" y="445" class="t-offw" text-anchor="end">19</text>
+<circle cx="580" cy="458" r="3.6" class="pinw"/>
+<text x="570" y="462" class="t-pinw" text-anchor="end">G</text>
+<circle cx="580" cy="475" r="3.6" class="pinw"/>
+<text x="570" y="479" class="t-pinw" text-anchor="end">G</text>
+<rect x="40" y="146" width="240" height="70" rx="8" class="mod"/>
+<text x="52" y="166" class="t-b">INMP441 microphone</text>
+<text x="272" y="173" class="t-pin" text-anchor="end">WS</text>
+<circle cx="280" cy="169" r="3" class="pin"/>
+<path d="M280 169 H420" class="w"/>
+<text x="272" y="190" class="t-pin" text-anchor="end">SCK</text>
+<circle cx="280" cy="186" r="3" class="pin"/>
+<path d="M280 186 H420" class="w"/>
+<text x="272" y="207" class="t-pin" text-anchor="end">SD</text>
+<circle cx="280" cy="203" r="3" class="pin"/>
+<path d="M280 203 H420" class="w"/>
+<text x="52" y="186" class="t-pin">VDD</text>
+<rect x="83" y="173" width="46" height="18" rx="9" class="tag3"/>
+<text x="106" y="186" class="t-tag" text-anchor="middle">3.3 V</text>
+<text x="52" y="208" class="t-pin">GND, L/R</text>
+<rect x="119" y="195" width="81" height="18" rx="9" class="tagb"/>
+<text x="159" y="208" class="t-tagb" text-anchor="middle">G on board</text>
+<rect x="40" y="222" width="240" height="124" rx="8" class="mod"/>
+<text x="52" y="242" class="t-b">MAX98357A amplifier</text>
+<text x="272" y="224" class="t-pin" text-anchor="end">DIN</text>
+<circle cx="280" cy="220" r="3" class="pin"/>
+<path d="M280 220 H420" class="w"/>
+<text x="272" y="241" class="t-pin" text-anchor="end">BCLK</text>
+<circle cx="280" cy="237" r="3" class="pin"/>
+<path d="M280 237 H420" class="w"/>
+<text x="272" y="258" class="t-pin" text-anchor="end">LRC</text>
+<circle cx="280" cy="254" r="3" class="pin"/>
+<path d="M280 254 H420" class="w"/>
+<text x="272" y="275" class="t-pin" text-anchor="end">SD</text>
+<circle cx="280" cy="271" r="3" class="pin"/>
+<path d="M280 271 H420" class="w"/>
+<text x="52" y="264" class="t-pin">VIN</text>
+<rect x="83" y="251" width="33" height="18" rx="9" class="tag5"/>
+<text x="99" y="264" class="t-tag" text-anchor="middle">5 V</text>
+<text x="52" y="288" class="t-pin">GND</text>
+<rect x="83" y="275" width="33" height="18" rx="9" class="tagg"/>
+<text x="99" y="288" class="t-tag" text-anchor="middle">GND</text>
+<text x="52" y="312" class="t-pin">GAIN</text>
+<rect x="90" y="299" width="102" height="18" rx="9" class="tagn"/>
+<text x="141" y="312" class="t-tag" text-anchor="middle">leave open</text>
+<text x="52" y="336" class="t-m">output + / − → FBS3232 speaker, 8 Ω</text>
+<rect x="40" y="356" width="240" height="80" rx="8" class="mod"/>
+<text x="52" y="376" class="t-b">WS2812B LED ring, 12 LEDs</text>
+<text x="272" y="400" class="t-pin" text-anchor="end">DI</text>
+<circle cx="280" cy="396" r="3" class="pin"/>
+<path d="M280 396 H322 V288 H420" class="w"/>
+<text x="52" y="398" class="t-pin">5V</text>
+<rect x="75" y="385" width="109" height="18" rx="9" class="tag5"/>
+<text x="130" y="398" class="t-tag" text-anchor="middle">5 V via diode</text>
+<text x="52" y="422" class="t-pin">GND</text>
+<rect x="83" y="409" width="33" height="18" rx="9" class="tagg"/>
+<text x="99" y="422" class="t-tag" text-anchor="middle">GND</text>
+<rect x="720" y="92" width="240" height="58" rx="8" class="mod"/>
+<text x="732" y="112" class="t-b">PTT button</text>
+<text x="728" y="128" class="t-pin">contact 1</text>
+<circle cx="720" cy="124" r="3" class="pin"/>
+<path d="M720 124 H660 V169 H580" class="w"/>
+<text x="732" y="142" class="t-pin">contact 2</text>
+<rect x="806" y="129" width="33" height="18" rx="9" class="tagg"/>
+<text x="822" y="142" class="t-tag" text-anchor="middle">GND</text>
+<rect x="720" y="176" width="240" height="136" rx="8" class="mod"/>
+<text x="732" y="246" class="t-b">KY-040 volume knob</text>
+<text x="728" y="190" class="t-pin">CLK</text>
+<circle cx="720" cy="186" r="3" class="pin"/>
+<path d="M720 186 H580" class="w"/>
+<text x="728" y="207" class="t-pin">DT</text>
+<circle cx="720" cy="203" r="3" class="pin"/>
+<path d="M720 203 H580" class="w"/>
+<text x="728" y="224" class="t-pin">SW</text>
+<circle cx="720" cy="220" r="3" class="pin"/>
+<path d="M720 220 H580" class="w"/>
+<text x="732" y="274" class="t-pin">+</text>
+<rect x="748" y="261" width="46" height="18" rx="9" class="tag3"/>
+<text x="771" y="274" class="t-tag" text-anchor="middle">3.3 V</text>
+<text x="732" y="298" class="t-pin">GND</text>
+<rect x="763" y="285" width="81" height="18" rx="9" class="tagb"/>
+<text x="803" y="298" class="t-tagb" text-anchor="middle">G on board</text>
+<text x="720" y="334" class="t-m">“+” to 3.3 V only: 5 V burns the board inputs</text>
+<path d="M420 458 H390" class="w"/>
+<rect x="353" y="450" width="33" height="18" rx="9" class="tag5"/>
+<text x="370" y="463" class="t-tag" text-anchor="middle">5 V</text>
+<path d="M420 118 H390" class="w"/>
+<rect x="340" y="110" width="46" height="18" rx="9" class="tag3"/>
+<text x="363" y="123" class="t-tag" text-anchor="middle">3.3 V</text>
+<path d="M420 475 H390" class="w"/>
+<rect x="353" y="467" width="33" height="18" rx="9" class="tagg"/>
+<text x="370" y="480" class="t-tag" text-anchor="middle">GND</text>
+<text x="400" y="526" class="t-m">* on the YD clone this pin is labelled “5Vin”</text>
+<path d="M420 305 H345 V566 H330 V590" class="w"/>
+<rect x="40" y="590" width="150" height="58" rx="8" class="mod"/>
+<text x="50" y="612" class="t-b">18650 battery</text>
+<text x="50" y="632" class="t-m">3.7 V, 3500 mAh</text>
+<rect x="250" y="590" width="150" height="58" rx="8" class="mod"/>
+<text x="260" y="612" class="t-b">Charger module</text>
+<text x="260" y="632" class="t-m">USB-C in, 5 V out</text>
+<rect x="460" y="590" width="150" height="58" rx="8" class="mod"/>
+<text x="470" y="612" class="t-b">Power switch</text>
+<text x="470" y="632" class="t-m">on / off</text>
+<rect x="640" y="590" width="150" height="58" rx="8" class="mod"/>
+<text x="650" y="612" class="t-b">5 V connector</text>
+<text x="650" y="632" class="t-m">WAGO 221-415 type</text>
+<rect x="820" y="590" width="150" height="58" rx="8" class="mod"/>
+<text x="830" y="612" class="t-b">GND connector</text>
+<text x="830" y="632" class="t-m">WAGO 221-415 type</text>
+<path d="M190 619 H250" class="p5"/>
+<path d="M400 610 H460" class="p5"/>
+<text x="430" y="603" class="t-m" text-anchor="middle">OUT+</text>
+<path d="M610 610 H640" class="p5"/>
+<path d="M400 636 H430 V666 H895 V648" class="pg"/>
+<text x="520" y="682" class="t-m">OUT− → GND connector</text>
+<text x="386" y="560" class="t-m">R1 100 kΩ from B+, R2 100 kΩ to B−; midpoint → pin 8</text>
+</svg>
