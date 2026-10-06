@@ -1,0 +1,10 @@
+firmware/build/
+firmware/walkie/build/
+__pycache__/
+*.pyc
+.DS_Store
+hub/hub.json
+hub/hub.log*
+hub/firmware/
+print/
+recordings/

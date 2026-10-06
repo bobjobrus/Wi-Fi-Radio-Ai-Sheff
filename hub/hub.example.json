@@ -1,0 +1,11 @@
+{
+  "name": "Облако",
+  "port": 47000,
+  "http_port": 47080,
+  "key": "ВСТАВЬТЕ-КЛЮЧ-СЕТИ",
+  "peers": [],
+  "status_token": "",
+  "tot_seconds": 90,
+  "firmware_dir": "firmware",
+  "log_file": "hub.log"
+}
